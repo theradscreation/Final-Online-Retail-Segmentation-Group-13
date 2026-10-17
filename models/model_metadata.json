@@ -1,0 +1,27 @@
+{
+  "model": "log1p -> StandardScaler -> KMeans (sklearn Pipeline)",
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary"
+  ],
+  "k": 4,
+  "random_state": 42,
+  "n_init": 10,
+  "snapshot_date": "2011-12-10",
+  "n_customers": 5852,
+  "segments": {
+    "0": "At-Risk / Need Attention",
+    "1": "Champions",
+    "2": "Hibernating / Low-Value",
+    "3": "Loyal / Promising"
+  },
+  "saved_with": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  },
+  "dataset_accessed": "2026-10-13",
+  "note": "Load with scikit-learn 1.9.1 to avoid InconsistentVersionWarning."
+}
